@@ -3,54 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>贺园园 - Homepage</title>
+  <title>贺园园 - 个人主页</title>
   <meta name="description" content="贺园园，预备党员，计算机硕士。">
   <meta name="author" content="贺园园">
-  <meta name="theme-color" content="#f6f1e8">
+  <meta name="theme-color" content="#ffffff">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="贺园园 - Homepage">
+  <meta property="og:title" content="贺园园 - 个人主页">
   <meta property="og:description" content="贺园园，预备党员，计算机硕士。">
   <meta property="og:url" content="https://heyuan-yuan.github.io/">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/style.css?v=20260527-4">
+  <link rel="icon" href="assets/favicon.svg?v=20260527-6" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css?v=20260527-6">
 </head>
 <body>
   <header class="masthead" aria-label="站点导航">
-    <div class="masthead-inner">
-      <a class="brand" href="#main-content">贺园园</a>
-      <nav class="masthead-nav" aria-label="顶部导航">
-        <a href="#about">简介</a>
-        <a href="#research">研究方向</a>
-        <a href="#education">教育经历</a>
-        <a href="#projects">项目经历</a>
-        <a href="#achievements">成果</a>
-        <a href="#news">动态</a>
-      </nav>
-    </div>
-  </header>
-
-  <div class="site-shell">
-    <aside class="profile-card" aria-label="个人信息">
-      <a class="skip-link" href="#main-content">跳到主要内容</a>
-      <div class="avatar-wrap">
-        <img class="avatar" src="assets/profile.jpg?v=20260527-4" alt="贺园园头像">
-      </div>
-
-      <!-- 个人基本信息：后续可在这里修改姓名、英文名和身份标签 -->
-      <h1 class="name">贺园园</h1>
-      <p class="english-name">Yuanyuan He</p>
-      <div class="identity-list" aria-label="身份简介">
-        <span>预备党员</span>
-        <span>计算机硕士</span>
-      </div>
-
-      <!-- 联系方式：后续把“待补充”替换为真实邮箱或其他链接 -->
-            <ul class="contact-list">
-        <li><strong>Email</strong><a href="mailto:yuanyh@linux.do">yuanyh@linux.do</a></li>
-      </ul>
-
-      <!-- 侧边锚点导航：新增栏目时，在这里增加对应链接 -->
-      <nav class="side-nav" aria-label="页面栏目导航">
+    <nav class="masthead-inner" aria-label="主导航">
+      <a class="home-link" href="#about" aria-label="Homepage">
+        <span class="home-icon" aria-hidden="true">YH</span>
+        <span>Homepage</span>
+      </a>
+      <div class="nav-links">
         <a href="#about">个人简介</a>
         <a href="#research">研究方向</a>
         <a href="#education">教育经历</a>
@@ -58,99 +29,122 @@
         <a href="#achievements">代表性成果</a>
         <a href="#news">最新动态</a>
         <a href="#more">其他内容</a>
-      </nav>
+      </div>
+    </nav>
+  </header>
+
+  <div id="main" class="layout" role="main">
+    <aside class="sidebar" aria-label="个人信息栏">
+      <a class="skip-link" href="#content">跳到主要内容</a>
+
+      <section class="profile-box" aria-label="贺园园个人信息">
+        <div class="avatar-frame">
+          <img class="avatar" src="assets/profile.jpg?v=20260527-6" alt="贺园园头像" fetchpriority="high">
+        </div>
+
+        <!-- 个人基本信息：后续可在这里修改姓名、英文名和身份简介 -->
+        <h2 class="profile-name">贺园园</h2>
+        <p class="profile-en">Yuanyuan He</p>
+        <ul class="profile-tags" aria-label="身份简介">
+          <li>预备党员</li>
+          <li>计算机硕士</li>
+        </ul>
+
+        <!-- 联系方式：后续可在这里补充邮箱、主页、Scholar 等链接；当前按要求不展示代码托管链接 -->
+        <ul class="profile-links" aria-label="联系方式">
+          <li>
+            <span class="link-icon" aria-hidden="true">✉</span>
+            <a href="mailto:yuanyh@linux.do">yuanyh@linux.do</a>
+          </li>
+        </ul>
+
+        <!-- 侧边锚点导航：新增栏目时，在这里同步增加对应链接 -->
+        <nav class="side-nav" aria-label="页面栏目导航">
+          <a href="#about">个人简介</a>
+          <a href="#research">研究方向</a>
+          <a href="#education">教育经历</a>
+          <a href="#projects">项目经历</a>
+          <a href="#achievements">代表性成果</a>
+          <a href="#news">最新动态</a>
+          <a href="#more">其他内容</a>
+        </nav>
+      </section>
     </aside>
 
-    <main id="main-content" class="content" tabindex="-1">
-      <header class="hero">
-        <!-- 首页顶部摘要：后续可改为更完整的个人介绍 -->
-        <p class="eyebrow">Academic Homepage</p>
-        <h2>贺园园</h2>
-        <p class="hero-subtitle">Yuanyuan He · 预备党员 · 计算机硕士</p>
-        <p>个人主页内容将持续更新，后续将补充研究方向、项目经历、论文成果、获奖经历等信息。</p>
-      </header>
-
-      <nav class="top-nav" aria-label="内容区快速导航">
-        <a href="#about">简介</a>
-        <a href="#research">方向</a>
-        <a href="#education">教育</a>
-        <a href="#projects">项目</a>
-        <a href="#achievements">成果</a>
-        <a href="#news">动态</a>
-        <a href="#more">其他</a>
-      </nav>
-
+    <main id="content" class="page" tabindex="-1">
       <!-- 个人简介：后续可补充研究兴趣、经历概览和个人定位 -->
-      <section id="about" class="section-card">
-        <div class="section-heading">
-          <span>01</span>
-          <h2>个人简介</h2>
+      <section id="about" class="content-section lead-section" aria-labelledby="about-title">
+        <h1 id="about-title">贺园园 / Yuanyuan He</h1>
+        <p class="lead">贺园园，预备党员，计算机硕士。个人主页内容将持续更新。</p>
+        <p class="contact-line"><span aria-hidden="true">📧</span> Email: <a href="mailto:yuanyh@linux.do">yuanyh@linux.do</a></p>
+        <div class="quick-tags" aria-label="个人关键词">
+          <span>Academic Homepage</span>
+          <span>Computer Science</span>
+          <span>Master</span>
         </div>
-        <p>贺园园，预备党员，计算机硕士。个人主页内容将持续更新。</p>
       </section>
 
       <!-- 研究方向：后续可列出研究关键词、正在关注的问题和代表性论文 -->
-      <section id="research" class="section-card">
-        <div class="section-heading">
-          <span>02</span>
-          <h2>研究方向</h2>
-        </div>
+      <section id="research" class="content-section" aria-labelledby="research-title">
+        <h2 id="research-title"><span aria-hidden="true">🔬</span> 研究方向</h2>
         <ul class="clean-list">
-          <li>待补充</li>
-          <li>后续将添加研究方向、论文主题和相关项目等内容。</li>
+          <li><strong>研究方向：</strong>待补充。</li>
+          <li><strong>项目主题：</strong>后续将添加项目、论文、获奖、经历等内容。</li>
+          <li><strong>关键词：</strong>后续将补充研究关键词与技术方向。</li>
         </ul>
       </section>
 
       <!-- 教育经历：后续可按时间顺序补充学校、专业、导师和荣誉 -->
-      <section id="education" class="section-card">
-        <div class="section-heading">
-          <span>03</span>
-          <h2>教育经历</h2>
+      <section id="education" class="content-section" aria-labelledby="education-title">
+        <h2 id="education-title"><span aria-hidden="true">📖</span> 教育经历</h2>
+        <div class="timeline-item">
+          <div class="timeline-date">待补充</div>
+          <div class="timeline-body">
+            <h3>教育经历</h3>
+            <p>后续将补充学校、专业、导师、课程、荣誉等内容。</p>
+          </div>
         </div>
-        <p class="placeholder">待补充。</p>
       </section>
 
       <!-- 项目经历：后续可补充项目名称、角色、技术路线、成果链接 -->
-      <section id="projects" class="section-card">
-        <div class="section-heading">
-          <span>04</span>
-          <h2>项目经历</h2>
+      <section id="projects" class="content-section" aria-labelledby="projects-title">
+        <h2 id="projects-title"><span aria-hidden="true">💻</span> 项目经历</h2>
+        <div class="timeline-item">
+          <div class="timeline-date">待补充</div>
+          <div class="timeline-body">
+            <h3>项目与实践</h3>
+            <p>后续将添加项目背景、负责工作、技术路线、成果链接等内容。</p>
+          </div>
         </div>
-        <p class="placeholder">后续将添加项目、论文、获奖、经历等内容。</p>
       </section>
 
       <!-- 代表性成果：后续可补充论文、专利、竞赛、奖项或开源成果 -->
-      <section id="achievements" class="section-card">
-        <div class="section-heading">
-          <span>05</span>
-          <h2>代表性成果</h2>
-        </div>
-        <p class="placeholder">待补充。</p>
+      <section id="achievements" class="content-section" aria-labelledby="achievements-title">
+        <h2 id="achievements-title"><span aria-hidden="true">📝</span> 代表性成果</h2>
+        <article class="result-item">
+          <h3>待补充</h3>
+          <p>后续将添加论文、获奖、专利、竞赛或其他成果。</p>
+          <p class="meta">可按“标题 / 作者 / 期刊会议 / 年份 / 链接”的格式继续扩展。</p>
+        </article>
       </section>
 
       <!-- 最新动态：后续可按时间倒序添加新闻、论文录用、项目进展等 -->
-      <section id="news" class="section-card">
-        <div class="section-heading">
-          <span>06</span>
-          <h2>最新动态</h2>
-        </div>
-        <ul class="timeline">
-          <li><time datetime="2026-05">2026.05</time><span>个人主页上线，内容将持续更新。</span></li>
+      <section id="news" class="content-section" aria-labelledby="news-title">
+        <h2 id="news-title"><span aria-hidden="true">🎉</span> 最新动态</h2>
+        <ul class="news-list">
+          <li><time datetime="2026-05">2026-05</time><span>个人主页上线，内容将持续更新。</span></li>
         </ul>
       </section>
 
       <!-- 其他内容：后续可扩展为教学、服务、技能、兴趣或下载入口 -->
-      <section id="more" class="section-card">
-        <div class="section-heading">
-          <span>07</span>
-          <h2>其他内容</h2>
-        </div>
-        <p class="placeholder">待补充。</p>
+      <section id="more" class="content-section" aria-labelledby="more-title">
+        <h2 id="more-title"><span aria-hidden="true">📌</span> 其他内容</h2>
+        <p>待补充。后续可扩展为教学、服务、技能、兴趣或下载入口。</p>
       </section>
 
-      <footer class="site-footer">
-        <!-- 页脚：后续可添加备案、版权、更新时间等信息 -->
-        <p>© <span id="year">2026</span> 贺园园</p>
+      <footer class="footer">
+        <!-- 页脚：后续可添加更新时间等信息 -->
+        <p>© 2026 贺园园</p>
       </footer>
     </main>
   </div>
