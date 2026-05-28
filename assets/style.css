@@ -167,11 +167,6 @@ a:focus-visible {
   font-size: 0.95rem;
 }
 
-.profile-link-text {
-  display: block;
-  padding-left: 32px;
-}
-
 .link-icon {
   width: 22px;
   height: 22px;
