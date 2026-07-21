@@ -257,9 +257,9 @@ h1 {
 
 /* 粉色爱心：悬浮在中文名右上角 */
 .heart {
-  font-size: 0.65em;
+  font-size: 0.4em;
   vertical-align: super;
-  margin-left: 6px;
+  margin-left: 4px;
 }
 
 h2 {
