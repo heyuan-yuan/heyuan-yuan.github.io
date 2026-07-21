@@ -12,7 +12,10 @@
   <meta property="og:description" content="贺园园，计算机硕士。">
   <meta property="og:url" content="https://heyuan-yuan.github.io/">
   <link rel="icon" href="assets/favicon.svg?v=20260527-6" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/style.css?v=20260528-1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css?v=20260528-2">
 </head>
 <body>
   <div id="main" class="layout" role="main">
@@ -24,9 +27,9 @@
           <img class="avatar" src="assets/profile.jpg?v=20260527-6" alt="贺园园头像" fetchpriority="high">
         </div>
 
-        <!-- 个人基本信息：后续可在这里修改姓名、英文名和身份简介 -->
-        <h2 class="profile-name">贺园园</h2>
+        <!-- 个人基本信息：英文名（蓝色衬线）在上，中文名（书法字+爱心）在下 -->
         <p class="profile-en">Yuanyuan He</p>
+        <h2 class="profile-name">贺园园<span class="heart" aria-hidden="true">💖</span></h2>
         <ul class="profile-tags" aria-label="身份简介">
           <li>计算机硕士</li>
         </ul>
@@ -58,7 +61,10 @@
     <main id="content" class="page" tabindex="-1">
       <!-- 个人简介：后续可补充研究兴趣、经历概览和个人定位 -->
       <section id="about" class="content-section lead-section" aria-labelledby="about-title">
-        <h1 id="about-title">贺园园 / Yuanyuan He</h1>
+        <h1 id="about-title" class="name-display">
+          <span class="name-en">Yuanyuan He</span>
+          <span class="name-cn">贺园园<span class="heart" aria-hidden="true">💖</span></span>
+        </h1>
         <p class="lead">贺园园，计算机硕士。个人主页内容将持续更新。</p>
         <div class="quick-tags" aria-label="个人关键词">
           <span>Academic Homepage</span>
