@@ -109,13 +109,13 @@ a:focus-visible {
   object-position: 50% 18%;
 }
 
-/* 侧边栏名字：英文名（蓝色衬线）在上，中文名（书法字+爱心）在下 */
+/* 侧边栏名字：英文名（蓝色衬线）在上，中文名（加粗黑体+爱心）在下 */
 .profile-name {
   margin: 0 0 14px;
   color: #1a1a1a;
-  font-family: "Ma Shan Zheng", "STXingkai", "KaiTi", "楷体", cursive;
+  font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 2.1rem;
-  font-weight: 400;
+  font-weight: 800;
   line-height: 1.3;
   text-align: center;
   letter-spacing: 0.02em;
@@ -247,9 +247,9 @@ h1 {
 .name-display .name-cn {
   display: block;
   color: #1a1a1a;
-  font-family: "Ma Shan Zheng", "STXingkai", "KaiTi", "楷体", cursive;
+  font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: clamp(2.4rem, 6vw, 3.4rem);
-  font-weight: 400;
+  font-weight: 800;
   line-height: 1.3;
   margin: 0;
   letter-spacing: 0.02em;
@@ -257,11 +257,9 @@ h1 {
 
 /* 粉色爱心：悬浮在中文名右上角 */
 .heart {
-  color: #ff6b9d;
-  font-size: 0.5em;
+  font-size: 0.65em;
   vertical-align: super;
   margin-left: 6px;
-  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
 }
 
 h2 {
