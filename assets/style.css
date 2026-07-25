@@ -426,15 +426,17 @@ p {
   min-width: 0;
   padding: 14px 0 2px;
   display: grid;
-  grid-template-columns: 116px minmax(0, 1fr);
+  grid-template-columns: 148px minmax(0, 1fr);
   gap: 18px;
   border-bottom: 1px dashed var(--line);
 }
 
 .timeline-date {
+  min-width: 0;
   color: var(--heading);
   font-weight: 800;
-  white-space: nowrap;
+  line-height: 1.45;
+  white-space: normal;
 }
 
 .timeline-body p,
@@ -481,10 +483,6 @@ p {
 .status-review {
   background: #fff5e6;
   color: #96600c;
-}
-
-.text-link {
-  font-weight: 700;
 }
 
 .skill-list {
