@@ -123,3 +123,12 @@ p { margin: 0 0 10px; }
   .layout { padding-left: 12px; padding-right: 12px; }
   .quick-tags span { font-size: 0.78rem; }
 }
+
+.wechat-trigger { padding: 0; border: 0; background: none; color: var(--accent); font: inherit; text-align: left; cursor: pointer; justify-self: start; }
+.wechat-trigger:hover { text-decoration: underline; }
+.wechat-trigger:focus-visible, .wechat-close:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.wechat-dialog { max-width: calc(100vw - 32px); max-height: calc(100dvh - 32px); padding: 40px 12px 12px; border: 0; border-radius: 16px; background: white; box-shadow: 0 20px 80px #0004; }
+.wechat-dialog::backdrop { background: rgb(0 0 0 / 55%); }
+.wechat-dialog img { display: block; width: auto; height: auto; max-width: min(420px, calc(100vw - 56px)); max-height: calc(100dvh - 100px); object-fit: contain; }
+.wechat-close { position: absolute; top: 4px; right: 8px; width: 32px; height: 32px; border: 0; border-radius: 50%; background: #f1f3f5; color: #4a5058; font-size: 24px; line-height: 1; cursor: pointer; }
+html:has(.wechat-dialog[open]) { overflow: hidden; }
