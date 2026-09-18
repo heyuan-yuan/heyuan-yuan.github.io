@@ -82,6 +82,10 @@ p { margin: 0 0 10px; }
 .timeline-item:last-child { border-bottom: 0; padding-bottom: 0; }
 .timeline-date { min-width: 0; color: var(--heading); font-size: 0.95rem; font-weight: 800; line-height: 1.5; white-space: normal; }
 .timeline-body p { color: var(--muted); }
+.education-highlights { margin: 14px 0 10px; padding: 12px 14px; border-radius: 6px; background: var(--accent-soft); }
+.education-highlights p { margin: 0; color: var(--accent); font-size: 1.05rem; line-height: 1.6; }
+.education-highlights p + p { margin-top: 6px; }
+.education-highlights strong { font-weight: 800; }
 .project-item .timeline-date { color: var(--accent); font-size: 0.86rem; font-weight: 700; }
 .skill-list { margin: 0; padding: 0; display: grid; gap: 12px; list-style: none; }
 .skill-list li { display: grid; grid-template-columns: 88px minmax(0,1fr); gap: 14px; padding: 14px 0; border-bottom: 1px solid var(--line); color: var(--muted); }
