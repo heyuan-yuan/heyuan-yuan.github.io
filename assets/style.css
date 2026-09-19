@@ -50,7 +50,7 @@ a:hover, a:focus-visible { color: var(--accent-hover); text-decoration: underlin
 .section-nav a { padding: 7px 8px; border: 1px solid transparent; border-radius: 999px; color: var(--muted); background: #f8fafc; font-size: 0.84rem; text-align: center; }
 .section-nav a:hover, .section-nav a:focus-visible { border-color: #d7e3f5; background: var(--accent-soft); color: var(--accent); text-decoration: none; }
 .sidebar-motto { width: 100%; margin: 18px 0 0; }
-.sidebar-motto img { display: block; width: 100%; height: auto; border-radius: 10px; }
+.sidebar-motto img { display: block; width: 100%; height: auto; border-radius: 10px; filter: brightness(1.1) contrast(1.08); }
 .page { min-width: 0; max-width: 100%; color: var(--text); }
 .content-section { min-width: 0; scroll-margin-top: 76px; margin-bottom: 42px; }
 .lead-section { margin-bottom: 36px; padding: 28px 28px 24px; border: 1px solid var(--line); border-radius: calc(var(--radius) + 6px); background: rgba(255,255,255,0.9); box-shadow: var(--shadow); }
