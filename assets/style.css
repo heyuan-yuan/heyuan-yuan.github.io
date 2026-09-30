@@ -179,3 +179,5 @@ html:has(.wechat-dialog[open]) { overflow: hidden; }
 @media (max-width: 760px) {
   .lang-toggle { padding: 3px 11px; font-size: 0.8rem; }
 }
+html[lang="en"] .education-item .timeline-date { white-space: normal; }
+html[lang="en"] .skill-list li { grid-template-columns: 118px minmax(0,1fr); }
