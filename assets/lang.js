@@ -190,12 +190,7 @@
       toggle.textContent = lang === 'zh' ? 'EN' : '中文';
       toggle.setAttribute('aria-label', lang === 'zh' ? 'Switch to English' : '切换到中文');
     }
-    try { localStorage.setItem('site-lang', lang); } catch (e) { /* storage unavailable */ }
   }
-
-  var initial = 'zh';
-  try { if (localStorage.getItem('site-lang') === 'en') initial = 'en'; } catch (e) { /* storage unavailable */ }
-  if (initial === 'en') apply('en');
 
   var toggle = document.getElementById('lang-toggle');
   if (toggle) {
