@@ -15,7 +15,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css?v=20261008-visitors">
+  <link rel="stylesheet" href="assets/style.css?v=20261008-flatmap">
 </head>
 <body>
   <a class="skip-link" href="#content" data-i18n="skip.link">跳到主要内容</a>
@@ -216,18 +216,16 @@
         </ul>
       </section>
       <footer class="footer">
-        <section class="visitor-map" aria-labelledby="visitor-map-title">
-          <h2 id="visitor-map-title" data-i18n="visitors.title">访客地图</h2>
-          <div class="visitor-map-widget">
-            <script id="mmvst_globe" src="https://mapmyvisitors.com/globe.js?d=Q0TRNfcb056elmFOEaWmkmZS4Sna-7kp7w7iIG6Dom4" async></script>
-          </div>
-          <p class="visitor-map-note" data-i18n="visitors.note">访客地图由 MapMyVisitors 提供。</p>
-        </section>
-        <p class="footer-contact">
-          <span data-i18n="footer.loc">山西 · 吕梁</span>
-          <a href="mailto:lei_50@163.com">lei_50@163.com</a>
-        </p>
-        <p data-i18n="footer.copy">© 2026 贺园园</p>
+        <div class="footer-info">
+          <p class="footer-contact">
+            <span data-i18n="footer.loc">山西 · 吕梁</span>
+            <a href="mailto:lei_50@163.com">lei_50@163.com</a>
+          </p>
+          <p data-i18n="footer.copy">© 2026 贺园园</p>
+        </div>
+        <div class="visitor-map" role="group" aria-label="访客地图" data-i18n-aria="visitors.title">
+          <script id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d=6gB53Hr_GJ3lWZi9FFSmcuCsQKmtBrh2VoZUYy2CnPs&amp;cl=a7b8cc&amp;co=ffffff&amp;ct=6b7280&amp;w=a" async></script>
+        </div>
       </footer>
     </main>
   <dialog id="wechat-dialog" class="wechat-dialog" aria-label="微信二维码" data-i18n-aria="dialog.aria">
@@ -236,6 +234,6 @@
     <p class="wechat-id" data-i18n="dialog.id">微信号：<strong>flames-_</strong></p>
   </dialog>
   <script src="assets/wechat.js?v=20260911" defer></script>
-  <script src="assets/lang.js?v=20261008-visitors" defer></script>
+  <script src="assets/lang.js?v=20261008-flatmap" defer></script>
 </body>
 </html>
