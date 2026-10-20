@@ -81,7 +81,7 @@
       'dialog.aria': '微信二维码',
       'dialog.close': '关闭',
       'dialog.qrAlt': '贺园园的微信二维码，使用微信扫一扫添加好友',
-      'dialog.id': '微信号：<strong>flames-_</strong>'
+      'dialog.id': '微信号：<strong>hey_yuan-</strong>'
     },
     en: {
       'skip.link': 'Skip to content',
@@ -163,7 +163,7 @@
       'dialog.aria': 'WeChat QR code',
       'dialog.close': 'Close',
       'dialog.qrAlt': 'WeChat QR code of Yuanyuan He; scan to add as a contact',
-      'dialog.id': 'WeChat ID: <strong>flames-_</strong>'
+      'dialog.id': 'WeChat ID: <strong>hey_yuan-</strong>'
     }
   };
 
